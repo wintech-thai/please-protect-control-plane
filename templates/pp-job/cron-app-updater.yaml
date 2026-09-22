@@ -13,7 +13,7 @@ spec:
         spec:
           containers:
           - name: cron-script
-            image: "asia-southeast1-docker.pkg.dev/its-artifact-commons/please-protect/please-protect-jobs:{{ .Values.ppJob.imageTag }}"
+            image: "pjamenaja/please-protect-jobs:{{ .Values.ppJob.imageTag }}"
             imagePullPolicy: IfNotPresent
             command:
               - /bin/sh

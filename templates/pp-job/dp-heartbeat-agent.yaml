@@ -21,7 +21,7 @@ spec:
 
       containers:
       - name: heartbeat-agent
-        image: "asia-southeast1-docker.pkg.dev/its-artifact-commons/please-protect/please-protect-jobs:{{ .Values.ppJob.imageTag }}"
+        image: "pjamenaja/please-protect-jobs:{{ .Values.ppJob.imageTag }}"
         imagePullPolicy: Always
 
         command:
